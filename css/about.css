@@ -1,25 +1,26 @@
 
-div img {
-  width: 400px;
-}
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(10,1fr);
+    grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto auto auto ;
     background-image: linear-gradient(#3b2a9f, #bac2df);
     gap: 20px 20px;
 }
 .col-2 {
-   grid-column: span 5;
+   grid-column: span 6;
 }
   .col-3{
-    grid-column: span 3;
+    grid-column: span 4;
   }
  .col-1{
-  grid-column: span 10;
+  grid-column: span 12;
+ }
+ .col-4{
+  grid-column: span 3;
  }
  .card {
-  padding: 10px;
+  padding: 50px;
   border-radius: 20px;
   background-color: #1C140F;
   color: #ffffff;
