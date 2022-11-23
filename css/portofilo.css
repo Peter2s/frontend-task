@@ -74,6 +74,7 @@
     height: 60%;
     border-right: solid white 2px;
 }
+/*--------------------------------------------------------------------------------------------------*/
 .card-section{
     margin-top: 140px;
     width: 80%;
@@ -82,6 +83,26 @@
 }
 .card-section .video{
     width: 45%;
+    position: relative;
+}
+.card-section .video .play{
+    width: 40px;
+    height: 40px;
+    border: solid white 4px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
+.card-section .video .play:hover{
+    cursor: pointer;
+}
+.card-section .video .play img{
+    width: 50%;
+    height: 50%;
 }
 .card-section .video img{
     width: 100%;
@@ -109,6 +130,9 @@ button{
     width: 120px;
     height: 35px;
 }
+button:hover{
+    cursor: pointer;
+}
 .dd{
     margin-bottom: 40px;
 }
@@ -122,9 +146,11 @@ button{
     width: 40%;
 }
 
+/*---------------------------------------------------------*/
 
 .show{
-    margin-top: 50px;
+    margin-top: 150px;
+    padding-bottom: 30px;
     padding-top: 50px;
     width: 100%;
     height: 500px;
@@ -161,7 +187,7 @@ button{
 }
 .card2 .head .avater{
     display: flex;
-    width: 50%;
+    width: 60%;
     justify-content: space-evenly;
 }
 .card2 .head .avater img{
@@ -233,4 +259,44 @@ button{
     width: 20px;
     height: 20px;
     border-radius: 50%;
+}
+
+
+/*-------------------------------------------------*/
+.contact{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.contact .email .disc{
+    width: 43%;
+}
+.contact .email{
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+.contact .email .input-email{
+    position: relative;
+}
+.contact .email .input-email input{
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.contact .email .input-email button{
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    border-radius: 10px;
 }
