@@ -1,4 +1,4 @@
-
+/*grid section*/
 .grid-container {
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -42,6 +42,7 @@
   font-size: 25px;
   width: 50%;
  }
+ /*cards*/
  .card {
   padding: 50px;
   border-radius: 20px;
@@ -54,7 +55,7 @@
 .card-3{
   width: 20%;
   }
- 
+ /* btn */
  .btn{
   width: 150px;
   padding: 10px;
@@ -79,6 +80,7 @@ border-radius: 8px;
 background-color: rgba(176, 0, 220, 0.11);
 border-radius: 8px;
  }
+ /* felex */
  
 .flex{
   display: flex;
