@@ -3,6 +3,7 @@ body{
     background-image: url(https://i.postimg.cc/j2crMqHQ/joy-stick.png);
     background-repeat: no-repeat;
     background-position: 670px 0px;
+    overflow-y: hidden;
 }
 /*section #1*/
 #sec1{
