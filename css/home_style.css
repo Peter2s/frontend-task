@@ -1,3 +1,9 @@
+/*Body*/
+body{
+    background-image: url(https://i.postimg.cc/j2crMqHQ/joy-stick.png);
+    background-repeat: no-repeat;
+    background-position: 670px 0px;
+}
 /*section #1*/
 #sec1{
     width: 470px;
