@@ -19,11 +19,34 @@
  .col-4{
   grid-column: span 3;
  }
+ .card , #page_title h2, p{
+  font-family: 'Poppins';
+ }
  .card {
   padding: 50px;
   border-radius: 20px;
   background-color: #1C140F;
   color: #ffffff;
-  font-family: 'Poppins';
   font-size: 14px;
+ }
+ .btn{
+  width: 150px;
+  padding: 10px;
+  background: linear-gradient( #FA8305 , #FB9E3C);
+  border-width: 0px;
+  border-radius: 40px;
+  color: #ffffff;
+  font-family: 'Poppins';
+
+ }
+ #page_title{
+  padding: 50px;
+  color: #ffffff;
+  width: 450px;
+  height: 450px;
+ }
+
+ .img img{
+  width: 650px;
+  justify-content: end;
  }
