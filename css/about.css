@@ -1,0 +1,52 @@
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto auto ;
+    background-image: linear-gradient(#3b2a9f, #bac2df);
+    gap: 20px 20px;
+}
+.col-2 {
+   grid-column: span 6;
+}
+  .col-3{
+    grid-column: span 4;
+  }
+ .col-1{
+  grid-column: span 12;
+ }
+ .col-4{
+  grid-column: span 3;
+ }
+ .card , #page_title h2, p{
+  font-family: 'Poppins';
+ }
+ .card {
+  padding: 50px;
+  border-radius: 20px;
+  background-color: #1C140F;
+  color: #ffffff;
+  font-size: 14px;
+ }
+ .btn{
+  width: 150px;
+  padding: 10px;
+  background: linear-gradient( #FA8305 , #FB9E3C);
+  border-width: 0px;
+  border-radius: 40px;
+  color: #ffffff;
+  font-family: 'Poppins';
+
+ }
+ #page_title{
+  padding: 50px;
+  color: #ffffff;
+  width: 450px;
+  height: 450px;
+ }
+
+ .img img{
+  width: 650px;
+  justify-content: end;
+ }
